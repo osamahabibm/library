@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#00cec9;
+}
+.face{
+    width: 100%;
+    height: 120px;
+    margin: 0px auto 10px;
+    padding: 0;
+    
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: #0984e3;
+}
+#shelf{
+    width: 35%;
+    position: relative;
+    display: flex;
+    border:  groove;
+    margin: auto;
+    border-radius: 1cm;
+}
+.containerOfBooksStyle{
+ 
+    flex-direction: column;
+    background:#fdcb6e;
+    width: 90px;
+    height: 200px;
+    margin: 10px 20px;
+    
+}
+.imagesStyle{
+    width: 90px;
+    height: 120px;
+  
+}
+
+.titleStyle{
+    height: 40px;
+    text-align: center;
+    margin: 1.5px 0px;
+    font-size: medium;
+}
+.authorStyle{
+    height: 40px;
+    text-align: center;
+    font-size: small;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: #2d3436;
+}
+input[type="text" ] {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 1cm;
+    margin: 8px 0;
+}
+input:hover{
+    border: 2px solid #48dbe0;
+}
+button{
+     width: 200px;
+     margin: 8px 0;
+}
+
+.add-book{
+    width: 70%;
+    margin-left: 14%;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+

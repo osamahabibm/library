@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>osama habib</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel='stylesheet' href='style.css'>
+    
+</head>
+
+<body>
+    
+    <div class='face'>
+        <h1> Library 📚</h1>
+    </div>
+
+    <div id='container'>
+        <div id='shelf'></div>
+        <div id='shelf'></div>
+        <div id='shelf'></div>
+    </div>
+  
+    <div class='add-book'>
+        <form autocomplete='off' onsubmit="event.preventDefault(); uploadData();">
+
+            <label>Title</label>
+            <input id='titleOfTheBook' type='text' class="form-control" placeholder='name book' name='titleOfTheBook' required>
+
+            <label>Author</label>
+            <input id='authorOfTheBook' type='text' class="form-control" placeholder='name author' name='authorOfTheBook' required>
+
+            <label>Link</label>
+            <input id='linkOfTheBook' type='text' class="form-control" placeholder='link of image book'
+                name='linkOfTheBook' required>
+<center>
+    <button type='submit' class="btn btn-success" onclick="uploadData">Now Book</button>
+</center>
+            
+        </form>
+    </div>
+
+
+    <script src='script.js'></script>
+</body>
+
+
+</html>
